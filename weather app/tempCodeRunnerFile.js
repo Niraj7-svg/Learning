@@ -1,0 +1,1 @@
+  const weatherData = await fetchWeatherData(

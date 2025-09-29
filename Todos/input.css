@@ -1,0 +1,32 @@
+@import "tailwindcss";
+
+.toggleoff{
+    font-size: 18px;
+    line-height: 1.4;
+    /* color: #f3f4f6; */
+    /* display: flex; */
+}
+
+.toggleon{
+    font-size: 18px;
+    line-height: 1.4;
+    
+    ;
+}
+.task-item {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  background-color: #374151; /* Corresponds to bg-gray-700 */
+  padding: 0.375rem; /* Corresponds to p-1.5 (6px) */
+  border-radius: 0.375rem; /* Corresponds to rounded-md (6px) */
+  
+}
+.completed {
+    text-decoration: line-through;
+    color: #1b1e22 ;
+    
+}
+.nopass{
+    text-decoration: none;
+}
